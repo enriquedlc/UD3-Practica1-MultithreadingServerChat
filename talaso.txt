@@ -1,0 +1,11 @@
+This is a Java stack trace indicating that a NullPointerException has occurred in the code.
+
+The error occurred in the sendToAll method of the Chat class on line 37. The sendToAll method is being called from the run method 
+of the ClientHandler class on line 78.
+
+The NullPointerException means that a variable that was expected to be an object was found to be null, and the program attempted 
+to perform an operation on that null object. This can happen if the variable was not properly initialized or if it was assigned a null value at some point.
+
+To fix this error, you should examine the code in the sendToAll method and look for any variables that might not be properly initialized.
+You can also examine the code that calls sendToAll to see if any variables passed to the method are null. If you find a null variable, 
+you should either initialize it properly or check for null before using it.
